@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+}
+h1{
+    margin-top: 20px;
+}
+.outer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+}
+.outer-container img{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    transition: all 1s;
+}
+.wid-photo img{
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.4);
+}
+.end{
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
