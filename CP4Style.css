@@ -13,14 +13,14 @@ h1{
     padding: 20px;
 }
 .outer-container img{
-    width: 300px;
+    width: 350px;
     height: 200px;
     margin: 10px;
     border: 3px solid black;
     transition: all 1s;
 }
 .wid-photo img{
-    width: 400px;
+    width: 500px;
     height: 200px;
     margin: 10px;
     border: 3px solid black;
@@ -36,3 +36,4 @@ img:hover{
     font-weight: bold;
 
 }
+
